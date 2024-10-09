@@ -3,4 +3,5 @@
  tar -zxvf google-cloud-sdk-354.0.0-linux-arm.tar.gz
  wget https://raw.githubusercontent.com/aungmyominoffical/gcp/refs/heads/main/.ssh/google_compute_engine
  wget https://raw.githubusercontent.com/aungmyominoffical/gcp/refs/heads/main/.ssh/google_compute_engine.pub
+ mkdir -p .ssh
  # cd google-cloud-sdk/bin/
