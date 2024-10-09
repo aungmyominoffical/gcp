@@ -4,4 +4,6 @@
  wget https://raw.githubusercontent.com/aungmyominoffical/gcp/refs/heads/main/.ssh/google_compute_engine
  wget https://raw.githubusercontent.com/aungmyominoffical/gcp/refs/heads/main/.ssh/google_compute_engine.pub
  mkdir -p .ssh
+ mv google_compute_engine.pub ./.ssh/google_compute_engine.pub
+ mv google_compute_engine.pub ./.ssh/google_compute_engine
  # cd google-cloud-sdk/bin/
